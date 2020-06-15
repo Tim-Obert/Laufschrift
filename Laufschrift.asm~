@@ -41,7 +41,7 @@ subb a, #08h
 mov r2,#00h
 inc R3
 
-cjne r3, #04h, shiftrow ; Wiederholungen des Buchstabens
+cjne r3, #02h, shiftrow ; Wiederholungen des Buchstabens
 add a, #08h
 mov r3, #00h
 call shiftrow
